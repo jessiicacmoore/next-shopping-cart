@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
-
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container {
+  padding: 0 2rem;
 }
-
-body {
-  font-family: 'Open Sans', sans-serif;
+.small {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.large {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
